@@ -1,14 +1,14 @@
 {
 	"folders": {},
 	"connections": {
-		"duckdb_jdbc-1932bd0ee4d-4ec2e93b41f19185": {
+		"duckdb_jdbc-1932c529c51-4f4980b1a5e50aa0": {
 			"provider": "generic",
 			"driver": "duckdb_jdbc",
-			"name": ".project",
+			"name": "jokes.duckdb",
 			"save-password": true,
 			"configuration": {
-				"database": "C:\\Users\\Freja\\Desktop\\sql_demos\\setup_DBeaver\\.project",
-				"url": "jdbc:duckdb:C:\\Users\\Freja\\Desktop\\sql_demos\\setup_DBeaver\\.project",
+				"database": "C:\\Users\\Freja\\Desktop\\sql_demos\\setup_DBeaver\\jokes.duckdb",
+				"url": "jdbc:duckdb:C:\\Users\\Freja\\Desktop\\sql_demos\\setup_DBeaver\\jokes.duckdb",
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
