@@ -1,0 +1,35 @@
+{
+	"folders": {},
+	"connections": {
+		"duckdb_jdbc-1932bd0ee4d-4ec2e93b41f19185": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": ".project",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Freja\\Desktop\\sql_demos\\setup_DBeaver\\.project",
+				"url": "jdbc:duckdb:C:\\Users\\Freja\\Desktop\\sql_demos\\setup_DBeaver\\.project",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
