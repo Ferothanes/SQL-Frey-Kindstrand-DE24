@@ -1,14 +1,14 @@
 {
 	"folders": {},
 	"connections": {
-		"duckdb_jdbc-1932c529c51-4f4980b1a5e50aa0": {
+		"duckdb_jdbc-193355a3823-7fa0693fa98559a8": {
 			"provider": "generic",
 			"driver": "duckdb_jdbc",
-			"name": "jokes.duckdb",
+			"name": "salaries.duckdb",
 			"save-password": true,
 			"configuration": {
-				"database": "C:\\Users\\Freja\\Desktop\\sql_demos\\setup_DBeaver\\jokes.duckdb",
-				"url": "jdbc:duckdb:C:\\Users\\Freja\\Desktop\\sql_demos\\setup_DBeaver\\jokes.duckdb",
+				"database": "C:\\Users\\Freja\\Desktop\\SQL-Frey-Kindstrand-DE24\\04_querying_data\\data\\salaries.duckdb",
+				"url": "jdbc:duckdb:C:\\Users\\Freja\\Desktop\\SQL-Frey-Kindstrand-DE24\\04_querying_data\\data\\salaries.duckdb",
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true,
