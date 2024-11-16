@@ -1,5 +1,5 @@
 CREATE TABLE
-    IF NOT EXISTS data_jokes AS (
+    IF NOT EXISTS data_jobs AS (
         SELECT 
         *
         FROM    

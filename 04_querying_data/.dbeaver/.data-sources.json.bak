@@ -1,6 +1,20 @@
 {
 	"folders": {},
 	"connections": {
+		"duckdb_jdbc-1932f12ae24-40279911ee5e8675": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "salaries.csv",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Freja\\Desktop\\SQL-Frey-Kindstrand-DE24\\04_querying_data\\data\\salaries.csv",
+				"url": "jdbc:duckdb:C:\\Users\\Freja\\Desktop\\SQL-Frey-Kindstrand-DE24\\04_querying_data\\data\\salaries.csv",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		},
 		"duckdb_jdbc-193355a3823-7fa0693fa98559a8": {
 			"provider": "generic",
 			"driver": "duckdb_jdbc",
