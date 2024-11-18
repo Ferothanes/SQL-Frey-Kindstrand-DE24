@@ -28,7 +28,7 @@ SELECT
 FROM
 	main.data_jobs dj
 WHERE
-	experience_level = 'SE'; 
+	experience_level = 'SE'; --equal condition
 
 
 -----------------
