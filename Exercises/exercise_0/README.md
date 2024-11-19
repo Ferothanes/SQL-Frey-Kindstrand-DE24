@@ -1,32 +1,57 @@
-# 1. Exploring hemnet data
+## 1. Exploring hemnet data - Go to [kaggle](https://www.kaggle.com/datasets/florianlandras/stockholm-house-market-prices) to download hemnet data from kaggle. Place the csv file into your local repository.
 
-## Go to this link [kaggle](https://www.kaggle.com/datasets/florianlandras/stockholm-house-market-prices) to download hemnet data from kaggle. Place the csv file into your local repository.
+ - view github course for exercise for more info
 
- - view github course for exercise
+# 2. Theory questions 
 
-# 2. Theory questions
+a) What is SQL, and why is it important in relational databases?
 
-## These study questions are good to get an overview of how SQL and relational databases work.
+Svar: SQL (Structured Query Language) används för att hantera och fråga relationsdatabaser. Det är viktigt eftersom det organiserar data i tabeller och gör det möjligt att effektivt skapa, läsa, uppdatera och ta bort data.
 
-  a) What is SQL, and why is it important in relational databases?
+b) Explain the difference between HAVING and WHERE clauses.
 
-  b) Explain the difference between HAVING and WHERE clauses.
+Svar:
 
-  c) Explain the purpose of the LIMIT or TOP clause in a SQL query.
+    - WHERE filtrerar rader innan gruppbildning och aggregering.
+    - HAVING filtrerar grupper efter att de har aggregerats.
 
-  d) What are the primary functions of the Data Definition Language (DDL) in SQL?
+c) Explain the purpose of the LIMIT or TOP clause in a SQL query.
 
-  e) Explain the differences between the Data Manipulation Language (DML) and Data Definition Language (DDL).
+Svar: LIMIT (eller TOP) begränsar antalet rader som returneras av en fråga. Används för att hämta ett litet urval från stora datamängder.
 
-  f) What type of dot commands are there in duckdb?
+d) What are the primary functions of the Data Definition Language (DDL) in SQL?
 
-  g) What makes DuckDB unique compared to other databases?
+Svar: DDL används för att definiera och ändra databasens struktur, exempelvis genom kommandon som CREATE, ALTER och DROP för tabeller och index.
 
-  h) Is DuckDB suitable for real-time data processing?
+e) Explain the differences between the Data Manipulation Language (DML) and Data Definition Language (DDL).
 
-  i) Difference between read_csv and read_csv_auto
+Svar:
 
-  j) What is the purpose and advantages of using an IDE such as DBeaver?
+    - DML: Används för att hantera data (t.ex. INSERT, UPDATE, DELETE).
+    - DDL: Används för att hantera databasens struktur (t.ex. CREATE, DROP).
+
+f) What type of dot commands are there in DuckDB?
+
+Svar: Dot-kommandon är speciella kommandon i DuckDB som utför olika funktioner, som .help (visa kommandon), .tables (visa tabeller) och .schema (visa schema).
+
+g) What makes DuckDB unique compared to other databases?
+
+Svar: DuckDB är optimerat för analytiska frågor på lokala filer och fungerar direkt med format som CSV och Parquet utan att behöva en server.
+
+h) Is DuckDB suitable for real-time data processing?
+
+Svar: Nej, DuckDB är designat för analytiska arbetsbelastningar och är inte optimerat för realtids bearbetning av transaktioner.
+
+i) Difference between read_csv and read_csv_auto?
+
+Svar:
+
+    - read_csv: Kräver att du manuellt specificerar filens parametrar (t.ex. avgränsare, header).
+    - read_csv_auto: Detekterar automatiskt filens parametrar, vilket gör det enklare att importera enkla CSV-filer.
+
+j) What is the purpose and advantages of using an IDE such as DBeaver?
+
+Svar: En IDE som DBeaver gör det lättare att hantera databaser genom att erbjuda en användarvänlig gränssnitt för att köra frågor, visa data och hantera databasens struktur.
 
 
 # Glossary of SQL and Related Terms
