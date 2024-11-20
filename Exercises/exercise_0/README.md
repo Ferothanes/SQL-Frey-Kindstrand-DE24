@@ -1,57 +1,54 @@
-## 1. Exploring hemnet data - Go to [kaggle](https://www.kaggle.com/datasets/florianlandras/stockholm-house-market-prices) to download hemnet data from kaggle. Place the csv file into your local repository.
+## Exploring hemnet data - Go to [kaggle](https://www.kaggle.com/datasets/florianlandras/stockholm-house-market-prices) to download hemnet data from kaggle. Place the csv file into your local repository.
 
- - view github course for exercise for more info
+ - view github course exercise for more info <3
 
-# 2. Theory questions 
+## Theory questions 
 
 a) What is SQL, and why is it important in relational databases?
 
-Svar: SQL (Structured Query Language) används för att hantera och fråga relationsdatabaser. Det är viktigt eftersom det organiserar data i tabeller och gör det möjligt att effektivt skapa, läsa, uppdatera och ta bort data.
+    - Svar: SQL (Structured Query Language) används för att hantera och fråga relationsdatabaser. Det är viktigt eftersom det organiserar data i tabeller och gör det möjligt att effektivt skapa, läsa, uppdatera och ta bort data.
 
 b) Explain the difference between HAVING and WHERE clauses.
 
-Svar:
-
+- Svar:
     - WHERE filtrerar rader innan gruppbildning och aggregering.
     - HAVING filtrerar grupper efter att de har aggregerats.
 
 c) Explain the purpose of the LIMIT or TOP clause in a SQL query.
 
-Svar: LIMIT (eller TOP) begränsar antalet rader som returneras av en fråga. Används för att hämta ett litet urval från stora datamängder.
+    - Svar: LIMIT (eller TOP) begränsar antalet rader som returneras av en fråga. Används för att hämta ett litet urval från stora datamängder.
 
 d) What are the primary functions of the Data Definition Language (DDL) in SQL?
 
-Svar: DDL används för att definiera och ändra databasens struktur, exempelvis genom kommandon som CREATE, ALTER och DROP för tabeller och index.
+    - Svar: DDL används för att definiera och ändra databasens struktur, exempelvis genom kommandon som CREATE, ALTER och DROP för tabeller och index.
 
 e) Explain the differences between the Data Manipulation Language (DML) and Data Definition Language (DDL).
 
-Svar:
-
+- Svar:
     - DML: Används för att hantera data (t.ex. INSERT, UPDATE, DELETE).
     - DDL: Används för att hantera databasens struktur (t.ex. CREATE, DROP).
 
 f) What type of dot commands are there in DuckDB?
 
-Svar: Dot-kommandon är speciella kommandon i DuckDB som utför olika funktioner, som .help (visa kommandon), .tables (visa tabeller) och .schema (visa schema).
+    - Svar: Dot-kommandon är speciella kommandon i DuckDB som utför olika funktioner, som .help (visa kommandon), .tables (visa tabeller) och .schema (visa schema).
 
 g) What makes DuckDB unique compared to other databases?
 
-Svar: DuckDB är optimerat för analytiska frågor på lokala filer och fungerar direkt med format som CSV och Parquet utan att behöva en server.
+    - Svar: DuckDB är optimerat för analytiska frågor på lokala filer och fungerar direkt med format som CSV och Parquet utan att behöva en server.
 
 h) Is DuckDB suitable for real-time data processing?
 
-Svar: Nej, DuckDB är designat för analytiska arbetsbelastningar och är inte optimerat för realtids bearbetning av transaktioner.
+    - Svar: Nej, DuckDB är designat för analytiska arbetsbelastningar och är inte optimerat för realtids bearbetning av transaktioner.
 
 i) Difference between read_csv and read_csv_auto?
 
-Svar:
-
+- Svar:
     - read_csv: Kräver att du manuellt specificerar filens parametrar (t.ex. avgränsare, header).
     - read_csv_auto: Detekterar automatiskt filens parametrar, vilket gör det enklare att importera enkla CSV-filer.
 
 j) What is the purpose and advantages of using an IDE such as DBeaver?
 
-Svar: En IDE som DBeaver gör det lättare att hantera databaser genom att erbjuda en användarvänlig gränssnitt för att köra frågor, visa data och hantera databasens struktur.
+    - Svar: En IDE som DBeaver gör det lättare att hantera databaser genom att erbjuda en användarvänlig gränssnitt för att köra frågor, visa data och hantera databasens struktur.
 
 
 # Glossary of SQL and Related Terms
