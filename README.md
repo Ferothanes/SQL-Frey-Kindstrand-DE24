@@ -1,6 +1,6 @@
 # SQL-Frey-Kindstrand-DE24
 
-##Notes:
+### Notes:
 
 ## Common git commands:
 
@@ -28,7 +28,7 @@ Below is a list of common Git commands and their descriptions:
 | `git tag <name>`  | Tags a specific commit with a name for easy reference.         |
 
 
-## Common SQL Clauses Explained
+## Common SQL Clauses
 ### Keywords within SQL statements that define how data is queried or manipulated.
 
 | **Clause**     | **What it does**                                  |
@@ -46,7 +46,8 @@ Below is a list of common Git commands and their descriptions:
 - Relationships: How tables relate to each other (e.g., foreign keys linking tables).
 - Constraints: Rules that enforce data integrity (e.g., primary keys, unique constraints).     |
 
-## 	Common commands used to interact with the database interface or environment (e.g., DuckDB CLI).
+## 	Common META commands 
+### Used to interact with the database interface or environment (e.g., DuckDB CLI).
 
 | **Meta Command** | **Description**                                            |
 |------------------|------------------------------------------------------------|
@@ -58,7 +59,7 @@ Below is a list of common Git commands and their descriptions:
 | `.help`          | Lists all available meta commands.                         |
 
 
-## SQL Operations and Language Categories
+
 ### An overview of SQL operations for data management, structure definition, and access control.
 | **SQL-Abbreviation** | **Category**                | **Description**                                                                 |
 |-------------------|-----------------------------|---------------------------------------------------------------------------------|
@@ -68,5 +69,3 @@ Below is a list of common Git commands and their descriptions:
 | **DQL**           | Data Query Language        | Focused on retrieving data (e.g., `SELECT`).                                    |
 | **DCL**           | Data Control Language      | Manages permissions and access control (e.g., `GRANT`, `REVOKE`).              |
 | **TCL**           | Transaction Control Language | Handles transactions (e.g., `COMMIT`, `ROLLBACK`).                              |
-
----
