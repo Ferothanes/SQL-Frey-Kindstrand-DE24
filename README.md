@@ -39,12 +39,22 @@ Below is a list of common Git commands and their descriptions:
 | `GROUP BY`     | Groups rows based on a common value.              |
 | `HAVING`       | Filter groups after aggregation.                  |
 | `ORDER BY`     | Sort rows by column(s) in ascending or descending order. |
+| `DESC`         | Descending (highest to lowest, Z to A).           |
+| `ASC`          | Ascending (lowest to highest, A to Z).            |
+| `LIMIT`        | get top results (e.g., top 5 highest scores).     |
 
-| `SCHEMA`       | A schema in the context of databases is a way to organize and structure the data. It defines how data is stored in the database, including: 
+### `SCHEMA`
+A schema in the context of databases is a way to organize and structure the data. It defines how data is stored in the database, including: 
 - Tables: The collection of rows and columns that store data.
 - Columns: The individual attributes or fields in a table (e.g., name, age, date).
 - Relationships: How tables relate to each other (e.g., foreign keys linking tables).
-- Constraints: Rules that enforce data integrity (e.g., primary keys, unique constraints).     |
+- Constraints: Rules that enforce data integrity (e.g., primary keys, unique constraints).
+
+### DESC & Why Use DESC?
+DESC (DESCRIBE) is used to display the columns, data types, and other metadata of a table. INT, DESCIMAL, VARCHAR(), BOOLEANS, FLOAT(12,5), DATETIME ect
+- To understand the structure of the table you're working with.
+- To see the data types and constraints before writing queries.
+- To identify primary keys, foreign keys, and nullable columns.
 
 ## 	Common META commands 
 ### Used to interact with the database interface or environment (e.g., DuckDB CLI).
