@@ -22,6 +22,7 @@ Svar: Använd WHERE-klasulen för att specificera de rader som ska tas bort. Om 
 ### How do you retrieve unique values in a column?
 
 Svar: Använd DISTINCT i en SELECT-sats för att hämta unika värden i en kolumn. Exempel: 
+
     SELECT DISTINCT job_title FROM table_name;
 
 ### What does data transformation mean?
@@ -38,7 +39,8 @@ Svar: Om du utelämnar WHERE-klasulen i en DELETE-sats kommer alla rader i tabel
 
 ### What is a conditional statement in SQL, and can it be used with SELECT?
 
-Svar: En conditional statement i SQL används för att göra villkorsbaserade beslut. Ett exempel är CASE, som kan användas i en SELECT-sats för att skapa villkorliga värden baserat på kolumnvärden. Exempel: 
+Svar: En conditional statement i SQL används för att göra villkorsbaserade beslut. Ett exempel är CASE, som kan användas i en SELECT-sats för att skapa villkorliga värden baserat på kolumnvärden. Exempel:
+
     SELECT job_title, CASE WHEN salary > 10000 THEN 'High' ELSE 'Low' END FROM employees;
 
 ### What is SQL, and why is it important in relational databases?
@@ -102,38 +104,47 @@ Svar: För att lägga till en ny tabell används kommandot CREATE TABLE, där du
 
 ### How do I delete an entire table in SQL?
 Svar: För att ta bort en tabell används kommandot ´DROP TABLE´. Detta tar bort tabellen och all dess data.
+
     DROP TABLE employees;
 
 ### How do I add a new column to an existing table?
 Svar: För att lägga till en ny kolumn används kommandot ´´ALTER TABLE med klausulen ADD.
+
     ALTER TABLE employees ADD email VARCHAR(100);
 
 ### How do I delete a column from an existing table?
 Svar: För att ta bort en kolumn används kommandot ´ALTER TABLE´ med klausulen DROP COLUMN.
+
     ALTER TABLE employees DROP COLUMN email;
 
 ### How do you create a new row in a table?
 Svar: Använd ´INSERT INTO´ för att lägga till en ny rad i en tabell. Exempel: 
+
     INSERT INTO table_name (column1, column2) VALUES (value1, value2);
     
 ### How do I delete a row from a table?
 Svar: För att ta bort en rad används kommandot ´DELETE´ med en ´WHERE´-klausul för att specificera vilken rad som ska tas bort.
+
     DELETE FROM employees WHERE id = 1;
 
 ### How do I update a row in a table?
 Svar: För att uppdatera en rad används kommandot ´UPDATE´ med klausulen ´SET´ för att ange de nya värdena, samt WHERE för att specificera vilken rad som ska uppdateras.
+
     UPDATE employees
     SET age = 35
     WHERE name = 'John Doe';
 
 ### How do i rename a table or column
-Svar: För att byta namn på en tabell används kommandot ´ALTER TABLE´ med klausulen ´RENAME TO´
-Svar: För att byta namn på en kolumn används kommandot ´ALTER TABLE´ med klausulen ´RENAME COLUMN´
-    ALTER TABLE employees RENAME TO staff;
-    ALTER TABLE employees RENAME COLUMN department TO department_name;
+- Svar: För att byta namn på en tabell används kommandot ´ALTER TABLE´ med klausulen ´RENAME TO´
+- Svar: För att byta namn på en kolumn används kommandot ´ALTER TABLE´ med klausulen ´RENAME COLUMN´
+
+    - ALTER TABLE employees RENAME TO staff;
+    - ALTER TABLE employees RENAME COLUMN department TO department_name;
 
 ### How do I change the data type of a column in a table?
+
     ALTER TABLE employees MODIFY COLUMN age VARCHAR;
 
 ### How do I look at the data types of columns in a table?
+
     DESCRIBE!
