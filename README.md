@@ -73,9 +73,14 @@ DESC (DESCRIBE) is used to display the columns, data types, and other metadata o
 ### An overview of SQL operations for data management, structure definition, and access control.
 | **SQL-Abbreviation** | **Category**                | **Description**                                                                 |
 |-------------------|-----------------------------|---------------------------------------------------------------------------------|
-| **CRUD**          | Operations on Data         | Stands for Create, Read, Update, Delete — the basic operations for data management. |
-| **DDL**           | Data Definition Language   | Defines the structure of the database (e.g., tables, schemas).                  |
+| **CRUD**          | Operations on Data         | Create, Read, Update, Delete - basic operations for interacting with databases. |
+| **DDL**           | Data Definition Language   | Defines the structure of the database (e.g., tables, schemas, CREATE, ALTER).                  |
 | **DML**           | Data Manipulation Language | Manipulates data within tables (e.g., insert, update, delete).                  |
 | **DQL**           | Data Query Language        | Focused on retrieving data (e.g., `SELECT`).                                    |
 | **DCL**           | Data Control Language      | Manages permissions and access control (e.g., `GRANT`, `REVOKE`).              |
 | **TCL**           | Transaction Control Language | Handles transactions (e.g., `COMMIT`, `ROLLBACK`).                              |
+| **CSV**           | Comma-Separated Values - a file format for tabular data.                   |
+| **CLI**           | Command-Line Interface - a text-based interface for interacting with systems.   |
+|**E.D.A**          | Exploratory Data Analysis - Refers to the process of analyzing datasets to summarize their main characteristics, often using statistical and visualization techniques. The goal is to understand the structure, relationships, and patterns in the data.  |
+
+
