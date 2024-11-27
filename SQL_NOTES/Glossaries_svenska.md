@@ -1,5 +1,3 @@
-## Glossary of SQL and Related Terms
-
 # Glossary of SQL and Related Terms
 
 | **Termiology**       | **Explanation**                                           |
