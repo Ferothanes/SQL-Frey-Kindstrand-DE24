@@ -43,7 +43,7 @@ Below is a list of common Git commands and their descriptions:
 | `ASC`          | Ascending (lowest to highest, A to Z).            |
 | `LIMIT`        | get top results (e.g., top 5 highest scores).     |
 
-### `SCHEMA`
+### SCHEMA
 A schema in the context of databases is a way to organize and structure the data. It defines how data is stored in the database, including: 
 - Tables: The collection of rows and columns that store data.
 - Columns: The individual attributes or fields in a table (e.g., name, age, date).
@@ -55,6 +55,17 @@ DESC (DESCRIBE) is used to display the columns, data types, and other metadata o
 - To understand the structure of the table you're working with.
 - To see the data types and constraints before writing queries.
 - To identify primary keys, foreign keys, and nullable columns.
+
+### AGGREGERING
+Aggregering innebär att kombinera eller sammanfatta flera rader av data till ett enda värde. Detta görs ofta för att få en översikt eller sammanfattning av stora mängder data. 
+Vanliga Aggregeringsoperationer i SQL:
+- SUM(): Summerar värden i en kolumn. - Exempel: Beräkna den totala försäljningen. 
+- AVG(): Beräknar medelvärdet av värden i en kolumn. - Exempel: Beräkna genomsnittlig lönenivå för anställda.
+- COUNT(): Räknar antalet rader eller poster i en grupp. - Exempel: Räknar antalet anställda i ett - företag. 
+- MIN(): Hittar det minsta värdet i en kolumn. - Exempel: Hitta den lägsta temperaturen i en dataset. 
+- MAX(): Hittar det största värdet i en kolumn. - Exempel: Hitta den högsta försäljningen under en viss period.
+
+
 
 ## 	Common META commands 
 ### Used to interact with the database interface or environment (e.g., DuckDB CLI).
@@ -79,8 +90,8 @@ DESC (DESCRIBE) is used to display the columns, data types, and other metadata o
 | **DQL**           | Data Query Language        | Focused on retrieving data (e.g., `SELECT`).                                    |
 | **DCL**           | Data Control Language      | Manages permissions and access control (e.g., `GRANT`, `REVOKE`).              |
 | **TCL**           | Transaction Control Language | Handles transactions (e.g., `COMMIT`, `ROLLBACK`).                              |
-| **CSV**           | Comma-Separated Values - a file format for tabular data.                   |
-| **CLI**           | Command-Line Interface - a text-based interface for interacting with systems.   |
-|**E.D.A**          | Exploratory Data Analysis - Refers to the process of analyzing datasets to summarize their main characteristics, often using statistical and visualization techniques. The goal is to understand the structure, relationships, and patterns in the data.  |
+| **CSV**           | Comma-Separated Values | a file format for tabular data.                   |
+| **CLI**           | Command-Line Interface | a text-based interface for interacting with systems.   |
+|**E.D.A**          | Exploratory Data Analysis | Refers to the process of analyzing datasets to summarize their main characteristics, often using statistical and visualization techniques. The goal is to understand the structure, relationships, and patterns in the data.  |
 
 

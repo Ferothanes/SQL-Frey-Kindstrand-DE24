@@ -8,13 +8,10 @@
 | **Delete**          | `DELETE`                                     | Removes data from a table based on criteria.                                  |
 
 1. Read (Retrieve Data)
-- SELECT * FROM users WHERE id = 1;
-
+    SELECT * FROM users WHERE id = 1;
 2. Read (Retrieve Data)
--SELECT * FROM users WHERE id = 1;
-
+    SELECT * FROM users WHERE id = 1;
 3. Update (Modify Data)
-- UPDATE users SET email = 'new_email@example.com' WHERE id = 1;
-
+    UPDATE users SET email = 'new_email@example.com' WHERE id = 1;
 4. Delete (Remove Data)
-- DELETE FROM users WHERE id = 1;
+    DELETE FROM users WHERE id = 1;
