@@ -11,3 +11,4 @@ FROM
 	staging.sql_glossary);
 	
 SELECT * FROM refined.sql_glossary;
+SELECT * FROM staging.sql_glossary;
