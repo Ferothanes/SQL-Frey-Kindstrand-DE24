@@ -65,6 +65,16 @@ Vanliga Aggregeringsoperationer i SQL:
 - MIN(): Hittar det minsta värdet i en kolumn. - Exempel: Hitta den lägsta temperaturen i en dataset. 
 - MAX(): Hittar det största värdet i en kolumn. - Exempel: Hitta den högsta försäljningen under en viss period.
 
+### REGEX (regular expressions) 
+Powerful tool used for searching, matching, and manipulating text.
+Practical Examples of Regex:
+
+- Matching an Email Address:
+    ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+    This pattern matches a basic email format (e.g., username@example.com).
+- Matching a Phone Number:
+    ^\d{3}-\d{3}-\d{4}$
+    This matches phone numbers in the format 123-456-7890.
 
 
 ## 	Common META commands 
