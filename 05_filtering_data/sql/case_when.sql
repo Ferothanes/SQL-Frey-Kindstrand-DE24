@@ -2,6 +2,10 @@
 
 SELECT * FROM main.data_jobs;
 
+SELECT job_title, COUNT(*) FROM data_jobs GROUP BY job_title;
+
+
+
 -- EN --> Entry level
 -- MI --> Mid level
 -- SE --> Senior

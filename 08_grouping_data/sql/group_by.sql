@@ -10,6 +10,7 @@ ORDER BY
 	total_searches DESC
 LIMIT 10;
 
+
 --total searches by year
 SELECT
 	year,
