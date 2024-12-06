@@ -125,6 +125,27 @@ Svar: En IDE som DBeaver gör det lättare att hantera databaser genom att erbju
 
 ---
 
+### What is the difference between INNER JOIN and INTERSECT?
+- INNER JOIN: Combines rows from two tables where there is a match on a common column.
+- INTERSECT: Returns only the common rows between two result sets.
+
+### What are the purposes of set operations?
+Set operations (like UNION, INTERSECT, EXCEPT) combine or compare result sets from multiple queries.
+
+What are the main differences between joins and set operations?
+- Joins: Combine columns from different tables based on a condition (usually a matching key).
+- Set operations: Combine or compare entire result sets (rows), not individual columns.
+
+### When are set operators used vs logical operators?
+- Set operators: Used when combining or comparing entire result sets.
+- Logical operators (e.g., AND, OR): Used to filter rows within a single query based on conditions.
+
+### How to achieve this using set operations in SQL, where A and B are result sets?
+To combine or compare result sets A and B:
+- A UNION B — combines rows from both.
+- A INTERSECT B — returns common rows.
+- A EXCEPT B — returns rows in A but not in B.
+
 # ~ How do I ~
 
 ### How do I add a new table in SQL?
