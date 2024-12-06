@@ -37,3 +37,22 @@
 | Range Filtering      | Refining query results to include only data within a specific range, often using `BETWEEN` or comparison operators. |
 | Pattern Matching     | Searching for a specified pattern in a column, often using the `LIKE` operator. |
 | List Filtering       | Filtering query results to include values that match a specified list (using `IN`). |
+|--------------------|---------------------------------------------------------------------------------|
+| **Temporal**       | Deals with time-based data like dates and times.                               |
+| **Interval**       | A span of time, like "5 days" or "2 hours."                                    |
+| **Synthetic**      | Fake or simulated data created for testing.                                    |
+| **VALUES**         | Used to provide fixed values in SQL, like adding rows manually.                |
+| **Subquery**       | A query inside another query.                                                  |
+| **Compound Query** | Combines results from two or more queries.                                     |
+| **Set Operations** | Ways to combine or compare data from multiple queries.                         |
+| **EXCEPT**         | Shows data in the first query that isn’t in the second.                        |
+| **Result Set**     | The table or list of results you get from a query.                             |
+| **UNION**          | Combines results from two queries and removes duplicates.                      |
+| **UNION ALL**      | Combines results from two queries and keeps all rows, even duplicates.         |
+| **Operator**       | Symbols or words that perform calculations or comparisons, like `+` or `=`.    |
+| **INTERSECT**      | Shows data that is common between two queries.                                 |
+| **Venn Diagram**   | A diagram showing how sets overlap or differ.                                  |
+| **LEFT JOIN**      | Returns all rows from the first table and matches from the second.             |
+| **INNER JOIN**     | Returns only rows that match in both tables.                                   |
+| **RIGHT JOIN**     | Returns all rows from the second table and matches from the first.             |
+| **LIKE**           | Used to find text that matches a pattern, like "starts with A."                |

@@ -37,3 +37,22 @@
 | Range Filtering      | Förfining av frågeresultat för att inkludera endast data inom ett specifikt intervall, ofta med `BETWEEN` eller jämförelseoperatorer. |
 | Pattern Matching     | Sökning efter ett specificerat mönster i en kolumn, ofta med `LIKE`-operatorn. |
 | List Filtering       | Filtrering av frågeresultat för att inkludera värden som matchar en specificerad lista (med `IN`). |
+|--------------------|---------------------------------------------------------------------------------|
+| **Temporal**       | Hanterar tidsbaserad data som datum och tider.                                  |
+| **Interval**       | Ett tidsintervall, som "5 dagar" eller "2 timmar."                             |
+| **Synthetic**      | Falsk eller simulerad data skapad för testning.                                 |
+| **VALUES**         | Används för att ange fasta värden i SQL, som att lägga till rader manuellt.     |
+| **Subquery**       | En fråga inuti en annan fråga.                                                 |
+| **Compound Query** | Kombinerar resultat från två eller fler frågor.                                |
+| **Set Operations** | Sätt att kombinera eller jämföra data från flera frågor.                        |
+| **EXCEPT**         | Visar data från den första frågan som inte finns i den andra.                  |
+| **Result Set**     | Tabellen eller listan med resultat du får från en fråga.                        |
+| **UNION**          | Kombinerar resultat från två frågor och tar bort dubbletter.                    |
+| **UNION ALL**      | Kombinerar resultat från två frågor och behåller alla rader, även dubbletter.  |
+| **Operator**       | Symboler eller ord som utför beräkningar eller jämförelser, som `+` eller `=`. |
+| **INTERSECT**      | Visar data som är gemensam mellan två frågor.                                   |
+| **Venn Diagram**   | Ett diagram som visar hur mängder överlappar eller skiljer sig åt.             |
+| **LEFT JOIN**      | Returnerar alla rader från den första tabellen och matchar från den andra.     |
+| **INNER JOIN**     | Returnerar endast rader som matchar i båda tabellerna.                         |
+| **RIGHT JOIN**     | Returnerar alla rader från den andra tabellen och matchar från den första.     |
+| **LIKE**           | Används för att hitta text som matchar ett mönster, som "börjar med A."        |
