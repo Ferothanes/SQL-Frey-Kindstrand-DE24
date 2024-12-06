@@ -125,26 +125,14 @@ Svar: En IDE som DBeaver gör det lättare att hantera databaser genom att erbju
 
 ---
 
-### What is the difference between INNER JOIN and INTERSECT?
-- INNER JOIN: Combines rows from two tables where there is a match on a common column.
-- INTERSECT: Returns only the common rows between two result sets.
+| **Fråga**                                                   | **Svar**                                                                                              |
+|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Vad är skillnaden mellan INNER JOIN och INTERSECT?**       | - **INNER JOIN**: Kombinerar rader från två tabeller där det finns en match på en gemensam kolumn. <br> - **INTERSECT**: Returnerar endast de gemensamma raderna mellan två resultatuppsättningar. |
+| **Vad är syftet med set-operatörer?**                        | Set-operatörer (som **UNION**, **INTERSECT**, **EXCEPT**) kombinerar eller jämför resultatuppsättningar från flera frågor. |
+| **Vad är de huvudsakliga skillnaderna mellan joins och set-operatörer?** | - **Joins**: Kombinerar kolumner från olika tabeller baserat på ett villkor (vanligtvis en matchande nyckel). <br> - **Set-operatörer**: Kombinerar eller jämför hela resultatuppsättningar (rader), inte individuella kolumner. |
+| **När används set-operatörer kontra logiska operatorer?**   | - **Set-operatörer**: Används när man kombinerar eller jämför hela resultatuppsättningar. <br> - **Logiska operatorer** (t.ex. AND, OR): Används för att filtrera rader inom en enda fråga baserat på villkor. |
+| **Hur uppnår man detta med set-operatörer i SQL, där A och B är resultatuppsättningar?** | För att kombinera eller jämföra resultatuppsättningarna **A** och **B**: <br> - `A UNION B` — kombinerar rader från båda. <br> - `A INTERSECT B` — returnerar gemensamma rader. |
 
-### What are the purposes of set operations?
-Set operations (like UNION, INTERSECT, EXCEPT) combine or compare result sets from multiple queries.
-
-What are the main differences between joins and set operations?
-- Joins: Combine columns from different tables based on a condition (usually a matching key).
-- Set operations: Combine or compare entire result sets (rows), not individual columns.
-
-### When are set operators used vs logical operators?
-- Set operators: Used when combining or comparing entire result sets.
-- Logical operators (e.g., AND, OR): Used to filter rows within a single query based on conditions.
-
-### How to achieve this using set operations in SQL, where A and B are result sets?
-To combine or compare result sets A and B:
-- A UNION B — combines rows from both.
-- A INTERSECT B — returns common rows.
-- A EXCEPT B — returns rows in A but not in B.
 
 # ~ How do I ~
 
