@@ -98,6 +98,7 @@ Practical Examples of Regex:
 | **DDL**           | Data Definition Language   | Defines the structure of the database (e.g., tables, schemas, CREATE, ALTER).                  |
 | **DML**           | Data Manipulation Language | Manipulates data within tables (e.g., insert, update, delete).                  |
 | **DQL**           | Data Query Language        | Focused on retrieving data (e.g., `SELECT`).                                    |
+| **IDE**           | Intergrated Development Enviroment  | Program that can code, debug, test, and manage code efficiently by integrating essential programming tools, such as a code editor, compiler or interpreter, debugger etc into a unified interface.              |
 | **DCL**           | Data Control Language      | Manages permissions and access control (e.g., `GRANT`, `REVOKE`).              |
 | **TCL**           | Transaction Control Language | Handles transactions (e.g., `COMMIT`, `ROLLBACK`).                              |
 | **CSV**           | Comma-Separated Values | a file format for tabular data.                   |

@@ -28,6 +28,20 @@
 				"closeIdleConnection": true,
 				"auth-model": "native"
 			}
+		},
+		"duckdb_jdbc-193bd3982fa-7843903603312079": {
+			"provider": "generic",
+			"driver": "duckdb_jdbc",
+			"name": "course_plans.duckdb",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Freja\\Desktop\\SQL-Frey-Kindstrand-DE24\\17_repetition\\data\\course_plans.duckdb",
+				"url": "jdbc:duckdb:C:\\Users\\Freja\\Desktop\\SQL-Frey-Kindstrand-DE24\\17_repetition\\data\\course_plans.duckdb",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {
