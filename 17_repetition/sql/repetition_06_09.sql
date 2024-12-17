@@ -28,3 +28,39 @@ SELECT * FROM sql.lectures WHERE studied = FALSE;
 UPDATE 
     sql.lectures
 SET studied = FALSE WHERE study_week = 5;
+
+-----------------
+---matches strings case sensetive 
+SELECT * FROM SQL.lectures WHERE content ILIKE '%STRing%';
+-----------------
+
+SELECT
+	*
+FROM
+	SQL.lectures l
+LEFT JOIN SQL.exercises e ON
+	L.study_week = E.study_week ;
+
+-----------------------------
+SELECT
+	L.study_week, L.content, L.lecture, E.exercise 
+FROM
+	SQL.lectures l
+LEFT JOIN SQL.exercises e ON
+L.study_week = E.study_week ;
+------------------------------
+SELECT
+	*
+FROM
+	SQL.lectures l
+RIGHT JOIN SQL.exercises e ON
+	L.study_week = E.study_week ;
+--------------------------------
+
+SELECT
+	*
+FROM
+	SQL.lectures l
+INNER JOIN SQL.exercises e ON
+	L.study_week = E.study_week ;
+	

@@ -22,4 +22,6 @@ SELECT
 FROM
 	main.data_jobs;
 
+DESCRIBE data_jobs;
+
 

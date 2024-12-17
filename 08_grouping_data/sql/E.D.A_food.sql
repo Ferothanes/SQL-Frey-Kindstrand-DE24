@@ -14,7 +14,10 @@ FROM
 	main.food;
 
 --Counts all rows in table
-SELECT COUNT(*) AS number_rows FROM main.food; 
+SELECT
+	COUNT(*) AS number_rows
+FROM
+	main.food;
 
 -- see the table 
 DESC main.food;

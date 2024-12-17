@@ -41,4 +41,15 @@ FROM -- joins the two tables
 	main.plants p
 FULL JOIN
 	main.plant_care pc ON p.plant_id = pc.plant_id;
+--------------------------
+SELECT * FROM main.plants p ;
+SELECT * FROM main.plant_care pc ;
+
+SELECT
+	p.plant_name,
+	p.TYPE,
+	pc.water_schedule
+FROM main.plants p
+FULL JOIN 
+main.plant_care pc ON p.plant_id = pc.plant_id ;
 	

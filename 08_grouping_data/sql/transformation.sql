@@ -30,6 +30,12 @@ FROM
 
 
 
+SELECT
+	food,
+	week,
+	SUBSTRING(food, 1, 5)
+FROM
+	main.cleaned_food cf ;
 
 
 
